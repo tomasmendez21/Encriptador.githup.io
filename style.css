@@ -1,0 +1,89 @@
+*{
+    background-color: #d61a1a;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+.logo{
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 14%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #ffffff;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #d8d8d8af;}
+.text-area:focus{
+    outline:none;
+}
+.mensaje{
+    background: white;
+    background-image: url("img/millos.png" ) ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border: none;
+    overflow:auto;
+    border-radius: 24px;
+    color:#1f1e1e;
+    height: 780px;
+    width: 400px;
+    margin-left: 798px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    
+    
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+.btn-encriptar{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-right: 10px;
+}
+.btn-desencriptar{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 24px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-copiar{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 180px;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+}
+.informacion{
+    color: #ffffff;
+    font-size: 18px;
+}
